@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <div class="calculator">
+     <input id="display" readonly>
+      <div id="keys">
+      <button onclick="print('+')" class="operator">+</button>
+      <button onclick="print(7)" >7</button>
+      <button onclick="print(8)" >8</button> 
+      <button onclick="print(9)" >9</button>
+        
+      <button onclick="print('-')" class="operator">-</button>
+      <button onclick="print(4)">4</button>
+      <button onclick="print(5)">5</button>
+      <button onclick="print(6)">6</button>
+        
+      <button onclick="print('*')" class="operator">*</button>  
+      <button onclick="print(1)">1</button>
+      <button onclick="print(2)">2</button>
+      <button onclick="print(3)">3</button> 
+      
+      <button onclick="print('/')" class="operator">/</button>
+      <button onclick="print(0)">0</button>
+      <button onclick="print('.')">.</button>
+        
+      <button onclick="calculate()">=</button>
+
+      <button class="operator" onclick="clearDisplay()" >C</button>
+      </div></div>
+  </body>
+</html>
+ 
